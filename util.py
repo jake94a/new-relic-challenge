@@ -11,12 +11,12 @@ def get_file_from_cli(cli_input):
     """
     filename = cli_input
     file_path = Path(__file__).parent / "texts" / f"{filename}"
-    if file_path.exists():
-        return file_path
-    else:
+    # assume file_path exists, but if it doesn't, catch it
+    if not file_path.exists():
         error_string = f"sorry, {file_path} does not exist"
         print(error_string)
         return error_string
+    return file_path
 
 
 def create_phrases(file_to_read, num_words_per_phrase):

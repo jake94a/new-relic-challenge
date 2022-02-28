@@ -1,0 +1,16 @@
+this is a test file
+It has a couple lines of text
+with repeated words
+and some punctuation
+and Some other Capitalization issues
+
+The capital letter issues shouldn't be an issue
+"The" should match "the" and "tHe" and "thE"
+
+there are 7 occurrences of "the"
+
+He's just a poor boy from a poor family
+hes just a poor boy from a poor family
+
+this hyphen-
+ated line should read in an occurrence of "hyphenated" (2 total occurrences)
